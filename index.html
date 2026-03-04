@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+      a.styl1:link {
+        color: red;
+        text-decoration: none;
+      }
+
+      a.styl1:visited {
+        color: black;
+      }
+
+      a.styl1:hover {
+        color: aqua;
+      }
+
+      a.styl2:link {
+        color: rgb(255, 0, 76);
+        text-decoration: none;
+      }
+
+      a.styl2:visited {
+        color: rgb(0, 255, 0);
+      }
+
+      a.styl2:hover {
+        color: rgb(255, 238, 0);
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+      }
+      a.lego:link {
+        padding: 10px 20px;
+        background-color: rgb(14, 255, 255);
+        color: black;
+        text-decoration: none;
+        
+      }
+      a.lego:visited {
+        color: rgb(0, 17, 255);
+      }
+      a.lego:hover {
+        background-color: rgb(0, 153, 153);
+        color: aqua;
+      }
+
+      .socialka {
+        display: inline-block;
+        opacity: 1;
+      }
+
+      .socialka:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+        transition: all 0.5s ease;
+        transform: rotate(360deg);
+      }
+
+      .lego {
+        display: inline-block;
+        opacity: 1;
+        border: 3px solid transparent;
+        border-radius: 10px;
+      }
+
+      .lego:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+        transition: all 0.5s linear;
+        border: 3px solid rgb(14, 255, 255);
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <section id="glowa">
+        <a class="lego" href="index.html" target="_blank">Michał</a>
+      </section>
+      <nav>
+        <a class="styl1" href="http://www.onet.pl" target="_blank">Sor Jakub</a>
+        <a class="styl2" href="http://www.onet.pl" target="_blank">The Best</a>
+      </nav>
+      <section id="SOCIAL">
+        <a class="socialka" href="www.facebook.com" target="_blank">
+          <img src="facebuk.png" />
+        </a>
+      </section>
+    </header>
+  </body>
+</html>
